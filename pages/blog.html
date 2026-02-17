@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<audio id="page-music" loop>
+    <source src="../music/americanfiction.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    document.addEventListener('click', function() {
+        const music = document.getElementById('page-music');
+        music.volume = 0.2;
+        music.play();
+    }, { once: true });
+</script>
+
+<body>
+    <div class="blog-container">
+        <header class="margin">
+            <h1 class="font"><mark>andy's abode</mark></h1>
+            <p class="font italic">tomfoolery, dilly-dally, and one whole nothing burger</p>
+        </header>
+
+        <main>
+            <article class="blog-post">
+                <div class="post-date font">February 16, 2026</div>
+                <h2 class="font">new years eve</h2>
+                <p class="font">
+                    i'm not really in a writing mood. but if i was, i'd write about losing my childhood spark and 
+                    how ai fear-mongering and linkedin yc-maxxing are creeping into my conscious. but hey, at least i made 
+                    website! things are not the same--each month i speak less and less chinese, each lecture i forget
+                    what it was to be in high school, and each thought is catered to ESC190, ESC195 and ESC102.
+                </p>
+                <p>
+                    so heres the promise (by laufey): i'm shifting gears back into "create" mode. i used to read, write, play, draw,
+                    film, organize--i used to <mark>make</mark> things. these have been sitting on my mind recently:
+                </p>
+                <figure class="align-right">
+                    <img src="../images/diskygun.png" alt="yt thumbnail" class="align-right">
+                    <figcaption class="caption">
+                    <i>The Disky Gun Ad (2018)</i>
+                    </figcaption>
+                </figure>
+                <ul>
+                    <li><a href="https://youtu.be/gE0gpDW3Nu8" target="_blank">galaxygu youtube videos</a></li>
+                    <li><a href="https://theandygu.substack.com/p/the-art-of-procrastination" target="_blank">ms. payne blog post about procrastination</a></li>
+                    <li>all of film club</li>
+                    <li>la la land in concert</li>
+                    <li><a href="https://drive.google.com/file/d/1uUFibtTtLHU_5nayWcl5Y-oQ2xoktiht/view?usp=drive_link" target="_blank"><i>the summer we turned 18</i></a></li>
+                    <li><a href="https://letterboxd.com/galaxygu/film/oppenheimer-2023/" target="_blank">actual letterboxd reviews</a></li>
+                    <li>british parliamentary debate</li>
+                    <li>chicago and sydney (this needs a whole section tbh)</li>
+                </ul>
+                <p>
+                    making things has been the impetus, and i'm not letting some bummy ahh program take that away from me. plus, 
+                    it's a nice two-birds-with-one-stone, because i've been meaning to learn some HTML and CSS
+                    so that i'm not an illterate vibe-coder. much (self) love and happy lunar new year, reader.
+                </p>
+                <p>
+                    notes: watched an HTML and CSS tutorial, made the skeleton for the site, wrote my first post. just do things,
+                    because if you don't, it won't be perfect either.
+                </p>
+            </article>
+        </main>
+
+        <footer class="margin">
+            <a href="../index.html"><button class="font">go home</button></a>
+        </footer>
+    </div>
+</body>
+</html>

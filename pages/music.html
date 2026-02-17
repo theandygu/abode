@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<audio id="page-music" loop>
+    <source src="../music/laufey.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    document.addEventListener('click', function() {
+        const music = document.getElementById('page-music');
+        music.volume = 0.2;
+        music.play();
+    }, { once: true });
+</script>
+
+<body>
+    <div class="music-page-container">
+        <h1 class="font margin"><mark>recent rotations</mark></h1>
+        
+        <div class="album-grid">
+            <div class="album-card">
+                <img src="../images/Childish_Gambino_-_Awaken,_My_Love!.png" alt="Awaken, My Love!">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/4JCybsNZUXWrK2Jpyn12Ni?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p><i>stand tall</i> stuns you with its echoing sax and its shift to the groove at 4:44</p>
+            </div>
+
+            <div class="album-card">
+                <img src="../images/Laufey_-_Everything_I_Know_About_Love.png" alt="Everything I Know About Love">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/0Ydm84ftyiWRGOIFkdl30L?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>guys how is it possible that everything i know about love went past my radar for so long</p>
+            </div>
+
+            <div class="album-card">
+                <img src="../images/411YTNSXCNL._UF1000,1000_QL80_.jpg" alt="Red Garland's Piano">
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/1Lrt5saApIz6z8dGmyKB7d?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>red garland loves the 'and' of 2 and 4, and his block chord style dosen't go unnoticed</p>
+            </div>
+        </div>
+
+        <a href="../index.html" class="margin">
+            <button class="font">go home</button>
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>andy's abode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<audio id="page-music" loop>
+    <source src="../music/jazzbg.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    document.addEventListener('click', function() {
+        const music = document.getElementById('page-music');
+        music.volume = 0.2;
+        music.play();
+    }, { once: true });
+</script>
+
+<body>
+    <div class="main-container">
+        
+        <div class="image-box">
+            <img src="./images/The-French-Dispatch-e1642556487444.webp" alt="from the french dispatch">
+            <p class="caption">from <i>The French Dispatch (2021)</i></p>
+        </div>
+
+        <div class="content-box">
+            <div class="nav-links">
+                <a href="./pages/music.html"><button class="font">music</button></a>
+                <a href="./pages/dog.html"><button class="font">dog</button></a>
+            </div>
+            <h1 class="font">welcome to my <mark>abode!</mark></h1>
+            
+            <p class="font">
+                status: now it is reading week and the march till march is merciless in manner. stay warm and silly, andy 
+                (mom chuckled when she read that)
+            </p>
+            
+            <a class="font" href="./pages/blog.html">today's updates</a>
+        </div>
+
+    </div>
+</body>
+</html>
